@@ -32,12 +32,18 @@ class CreateBackupJob implements ShouldQueue
         if ($this->option === 'only-files') {
             $backupJob->dontBackupDatabases();
         }
+        
+        if (str($this->option)->contains('--disable-notifications')) {
+            $backupJob->disableNotifications();
+        }
 
         if (! empty($this->option)) {
             $prefix = str_replace('_', '-', $this->option).'-';
 
             $backupJob->setFilename($prefix.date('Y-m-d-H-i-s').'.zip');
         }
+        
+        
 
         $backupJob->run();
     }
