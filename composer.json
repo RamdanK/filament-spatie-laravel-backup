@@ -1,12 +1,12 @@
 {
-    "name": "shuvroroy/filament-spatie-laravel-backup",
+    "name": "RamdanK/filament-spatie-laravel-backup",
     "description": "This plugin is built on top of Spatie's Laravel-backup package",
     "keywords": [
         "filament",
         "laravel-backup",
         "filament-spatie-laravel-backup"
     ],
-    "homepage": "https://github.com/shuvroroy/filament-spatie-laravel-backup",
+    "homepage": "https://github.com/RamdanK/filament-spatie-laravel-backup",
     "license": "MIT",
     "authors": [
         {
