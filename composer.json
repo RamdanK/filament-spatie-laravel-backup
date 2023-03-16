@@ -1,5 +1,5 @@
 {
-    "name": "RamdanK/filament-spatie-laravel-backup",
+    "name": "ramdank/filament-spatie-laravel-backup",
     "description": "This plugin is built on top of Spatie's Laravel-backup package",
     "keywords": [
         "filament",
